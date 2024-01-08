@@ -5,3 +5,10 @@
 // Запустіть програму за допомогою Live Server
 // перевірте виконання за допомогою команди node tests/task1.test.js
 
+function changeCSS() {
+    const styledText = document.getElementById("text")
+
+    styledText.style.color = "orange";
+    styledText.style.fontSize = "20px";
+    styledText.style.fontFamily = "Comic Sans MS";
+}
